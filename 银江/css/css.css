@@ -1,0 +1,132 @@
+.YJ{background: url("../img/yjbg.png") repeat-x;width: 100%;}
+.fl{float: left}
+
+header{background: url("../img/headbg.png") no-repeat;width: 1210px;height: 104px;margin: 0 auto}
+header a{font-size: 14px;}
+header ul{margin-left: 916px;padding-top:48px;}
+header ul a{margin-right: 40px;}
+header ul span{display: block;margin-left: 221px; margin-top: -49px; width: 64px; height: 32px;border: 1px solid red;position: absolute;}
+
+.main{background: url("../img/nav-bg.png") repeat-x;width: 100%;}
+nav{background: url("../img/navbg.png") no-repeat;margin: 0 auto;width: 1205px;height: 70px;}
+nav ul{height: 70px;margin-left: 28px;}
+nav ul li{float: left;width:96px;height:62px;text-align: center;padding-top: 8px;position: relative;}
+nav ul li:hover{background: url("../img/navbtn-bg.png") no-repeat;width: 96px;}
+nav ul li.t1{margin-left: 20px;}
+nav ul li.t2{margin-left: 28px;}
+nav ul li.t3{margin-left: 34px;}
+nav ul li.t4{margin-left: 40px;}
+nav ul li.t5{margin-left: 40px;}
+nav ul li.t6{margin-left: 30px;}
+nav ul li a{font-size: 12px;color:white;}
+.submenu {
+	margin-left: 0;
+	opacity: 0;
+	position: absolute;
+	top:70px;
+	visibility: hidden;
+	z-index: 50;
+}
+.submenu li{background: orange}
+.submenu li:hover{background: url("../img/navbtn-bg.png") no-repeat; }
+li:hover ul.submenu {
+	opacity: 1;
+	top:70px;	/* adjust this as per top nav padding top & bottom comes */
+	visibility: visible;
+
+}
+nav ul li em{font-size: 12px;}
+
+.banner{margin: 0 auto;width: 1204px;height: 530px;display: block}
+
+.mid{width: 1210px;margin: 0 auto}
+section{width:755px;}
+.news{background: url("../img/newsbg.png") no-repeat;width: 754px;height: 390px;}
+.news ul{width: 754px;height: 70px;}
+.news ul li{float: left;width: 86px;padding-top:28px;padding-left: 38px;}
+.news ul li.t0{padding-left: 0;}
+.news ul li.t0 a{color: blue;border-bottom: 4px solid;}
+.news ul li a{font-size: 18px;display: block;padding-bottom: 10px;}
+.news ul li a:hover{color: blue;border-bottom: 4px solid;}
+.news ol{float: left;margin-top: 16px;width: 290px;text-align: center}
+.news ol a{font-size: 14px;}
+.news dl{margin-top: 8px;float: left;margin-left:26px;}
+.news dl li{line-height: 32px;height: 32px;}
+.news dl li a:hover{color: orange;}
+.news dt{width: 754px;height:70px; float: left;margin-top: 24px;}
+.news dt li{background: url("../img/newbtn_bg.png") no-repeat;width: 152px;height: 62px;text-align: center;float: left;line-height:58px;padding-right: 18px;}
+.news dt li a{font-size: 14px;font-weight: bolder;color: blue}
+
+.tour{background: url("../img/tourbg.png") no-repeat;width: 442px;height: 432px;}
+.tour img{margin-top: 14px;}
+.tour img:hover{
+    transform: scale(1.1);
+    box-shadow:1px 1px 5px black;
+    z-index: 50;
+}
+.tour img.p1{margin-left:7px;margin-top: 18px}
+.tour li{float: left;padding-top: 30px;}
+.tour li.l1{width: 296px;}
+.tour li.l2{width: 131px;padding-left: 13px;}
+
+.title{background: url("../img/titlebg.png") no-repeat;width: 313px;height: 433px}
+.title h3{font-size: 20px;font-weight: bolder;padding-top: 26px;padding-left: 32px;}
+.title p{width: 270px;font-size: 14px;line-height: 30px;padding-left: 30px;padding-top: 4px;}
+.title a{color: red;float: right;padding-right: 30px;margin-top: 38px;}
+
+
+.activities{background: url("../img/activitiesbg.png") no-repeat;width: 451px;height: 455px;}
+.activities img{display: block;float: left}
+.activities img:hover{
+    transform: scale(1.1);
+    box-shadow:1px 1px 5px black;
+    z-index: 50;
+}
+.activities ul{width: 400px;padding-top: 70px;padding-left: 50px;}
+.activities li{width:400px;height: 100px;padding-top: 10px;}
+.activities li a{font-size: 14px;width: 276px;display: block;float: left;margin-left: 14px;}
+.activities li span{font-size: 12px;color: #a9a9a9;width: 250px;display: block;float: left;margin-left: 14px;padding-top: 6px;}
+
+
+.silver{background: url("../img/silverbg.png") no-repeat;width: 451px;height: 367px;clear: both}
+.silver ul{padding-left: 4px;padding-top: 30px;}
+.silver ul img{
+            margin-top: 30px;
+}
+.silver ul img:hover{
+    transform: scale(1.1);
+    position: relative;
+    transition: 1s;
+}
+.silver ul li a{font-size: 16px;line-height: 32px;}
+.silver ul li{float: left;padding-left: 60px;}
+.silver ul li.l1{width: 86px;height: 82px;text-align: center;}
+.silver ul li.l2{width: 81px;height: 82px;text-align: center;}
+.silver ul li.l3{width: 99px;height: 82px;text-align: center;}
+
+
+article{background: url("../img/articlebg.png") no-repeat;width: 1205px;height: 390px;margin: 0 auto;clear: both;}
+article ul{padding-top: 47px;padding-left: 3px;}
+article ul img{padding-bottom:14px;}
+article ul img:hover{
+        -webkit-transform: rotate3d(0,1,0,360deg);
+        -moz-transform: rotate3d(0,1,0,360deg);
+        transform: rotate3d(0,1,0,360deg);
+        transition: -webkit-transform 0.8s ease-in-out;
+        transition: -moz-transform 0.8s ease-in-out;
+        transition: transform 0.8s ease-in-out;
+}
+article ul li{width: 204px;float: left;line-height: 30px;padding-left: 30px;float: left;}
+article ul li a{font-size: 16px;}
+article ul li em{display: block;padding-top:8px;}
+article ul li strong{color: red;font-size: 18px;}
+article ul li span{font-size: 14px;color: #999999}
+
+
+.foot{width: 100%;background: url("../img/footbg.png") repeat-x;height: 100px;clear: both; }
+footer{background: url("../img/footerbg.png") no-repeat;width: 1205px;height: 41px;margin: 0 auto;}
+footer img{margin-top:11px;}
+footer ul{padding-left: 167px; padding-top:12px;}
+footer ul li{float: left;padding-left: 44px;}
+footer ul li a{color: white;font-size: 15px;}
+footer ul li a:hover{color: orange;}
